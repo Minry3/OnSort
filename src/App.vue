@@ -68,7 +68,7 @@ async function verifier(event) {
 <template>
   <div class="container mt-5" style="max-width: 500px;">
     <h2>🐾 On sort ?</h2>
-    <p>La chaleur du sol peut être très dangereuse pour les petites pates de vos toutous. Vérifiez la températeur avant de le sortir !</p>
+    <p>La chaleur du sol peut être très dangereuse pour les petites pattes de vos toutous. Vérifiez la température avant de le sortir !</p>
 
     <BForm @submit="verifier">
       <BFormGroup id="ville-group" label="Ville :" label-for="ville" class="mb-3">
